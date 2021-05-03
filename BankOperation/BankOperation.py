@@ -61,7 +61,7 @@ def register ():
 
     accountNumber = generateAccountNumb()
     database[accountNumber] =[firstName,lastName, email, password]
-    print(database)
+    #print(database)
     print("Your account has been created")
 
     login()
